@@ -1,0 +1,60 @@
+{
+  "name": "redux-prefabs-connected-react-router",
+  "private": false,
+  "version": "0.0.0",
+  "description": "Redux-based prefabs for matching and changing connected-react-router routes",
+  "keywords": [
+    "prefabs",
+    "redux",
+    "connected-react-router"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/*"
+  ],
+  "author": "Joern Buchwald",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "peerDependencies": {
+    "connected-react-router": "^4.5.0",
+    "flux-standard-action": "^2.0.3",
+    "react-router": "^4.3.1",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.10",
+    "@types/react-router": "^4.0.30",
+    "connected-react-router": "^4.5.0",
+    "flux-standard-action": "^2.0.3",
+    "jest": "^23.6.0",
+    "react-router": "^4.3.1",
+    "redux": "^4.0.1",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {},
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
+    "globals": {
+      "ts-jest": {
+        "tsConfig": "tsconfig.json"
+      }
+    },
+    "testMatch": [
+      "**/*.test.+(ts|tsx|js)"
+    ]
+  }
+}
