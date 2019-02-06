@@ -1,7 +1,7 @@
 {
   "name": "redux-prefabs-connected-react-router",
   "private": false,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Redux-based prefabs for matching and changing connected-react-router routes",
   "keywords": [
     "prefabs",
